@@ -1,7 +1,8 @@
+// Ceiling - smallest element in the array greater or equal to target
 class HelloWorld {
     public static void main(String[] args) {
         int[] arr = {2,3,4,5,6,9,10,15,17,19,120,167};
-        int target = 18;  // smallest greater number after the target 
+        int target = 18;  
         int ans = binarysearch(arr,target);
         System.out.println(ans);
         
