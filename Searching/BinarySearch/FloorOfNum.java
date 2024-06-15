@@ -1,4 +1,4 @@
-//Ceil of the number
+// greatest element in array smaller or equal to target
 
 class HelloWorld {
     public static void main(String[] args) {
