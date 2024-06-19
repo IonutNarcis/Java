@@ -1,1 +1,24 @@
+collection interface
+        |
+  set interface
+|                |
+tree        hash set (class)
+            linked hash set (class)
+
+ # set interface is implement by the above three classes
+ #They allows you with search insert and delete
+ # They are unique
+ # Hash set used to implement hashing and printing the element in the hashing can be of any order
+
+
+Set<Integer> s = new HashSet<>();
+Set<Integer> s1 = new HashSet<>();
+
+1. union                 s.addAll(s1)
+2. Intersection          s.retainAll(s2)
+3. duplicates            s.removeAll(s3)
+
+Set<Integer> s1 = new HashSet<>(Arrays.asList(arr)); #arr must be non primitive eg Integer
+
+
 
