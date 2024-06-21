@@ -1,0 +1,38 @@
+                           map(interface)
+                           |                       |
+                    abstract method             sorted map
+                                                      
+                           |                       |
+                                                  
+                        hashmap                 Tree map (return results in the sorted order)
+                  (return result in any order)
+                           |
+                   Linked hash set
+         (returns results in the way it is inserted or present)
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Map<Integer,String> m = new TreeMap<>();
+        m.put(1,"t");
+        m.put(2,"s");
+        m.put(3,"s");
+        System.out.println(m);
+        //print as key value pair
+        //o/p
+        //{1=t, 2=s, 3=s}
+       
+    }
+}
+
+Methods present in the hashmap 
+void clear()  // remove all mappings
+v.getOrDefault(object key, default v)
+set<k> KeySet(); // return a set view of the keys since the key are distinct
+Collection<V> Values(); // return a collection of the value since the key are duplicated they are send as collection
+Set<Map.Entry<K,V>> entryset();
+
+  
+                              
