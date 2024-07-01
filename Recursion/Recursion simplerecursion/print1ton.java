@@ -11,3 +11,22 @@ class HelloWorld {
         System.out.println(n);
     }
 }
+
+
+
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=1;
+        recursion1ToN(n);
+    }
+    static void recursion1ToN(int n){
+        if(n>5){
+            return;
+        }
+        System.out.println(n);
+        recursion1ToN(n+1);
+    }
+}
