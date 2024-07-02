@@ -43,6 +43,44 @@ class HelloWorld {
     }
 }
 
+Divisors in O(sqrt(n))
+
+
+  
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=12;
+        //divisors
+        divisor(n);
+    }
+    public static void divisor(int n){
+        int i;
+        for(i=1;i*i<n;i++){
+            if(n%i==0){
+                System.out.println(i);
+            }
+        }
+        if(i*i == n)System.out.println(i);
+        for(i=i-1;i>=1;i--){
+            if(n%i==0){
+                System.out.println(n/i);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Prime factors of a  number
