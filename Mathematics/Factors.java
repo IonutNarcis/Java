@@ -45,29 +45,23 @@ class HelloWorld {
 
 Divisors in O(sqrt(n))
 
-
+Factors made easty
   
-class HelloWorld {
-    public static void main(String[] args) {
-        int n=12;
-        //divisors
-        divisor(n);
-    }
-    public static void divisor(int n){
+int x=4;
         int i;
-        for(i=1;i*i<n;i++){
-            if(n%i==0){
-                System.out.println(i);
+        int sum=0;
+        for(i=1;i*i<x;i++){
+            if(x%i == 0)
+            sum+=i;
+            System.out.println(i);
+        }
+        if(i*i==x) System.out.println(i);
+        for(i=i-1;i>1;i--){
+            if(x%i == 0){
+                sum+=i;
+                System.out.println(x/i);
             }
         }
-        if(i*i == n)System.out.println(i);
-        for(i=i-1;i>=1;i--){
-            if(n%i==0){
-                System.out.println(n/i);
-            }
-        }
-    }
-}
 
 
 
